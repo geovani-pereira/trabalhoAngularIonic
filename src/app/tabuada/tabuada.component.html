@@ -1,0 +1,9 @@
+<p>
+  Tabuada do {{n}}
+</p>
+<p *ngFor="let x of xs">
+  {{n}} vezes {{x}} é igual a {{n*x}} 
+</p>
+
+
+<button *ngFor="let i of xs" (click)="tab(i)">Tabuada do {{i}}</button> 
